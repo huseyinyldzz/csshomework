@@ -1,28 +1,76 @@
 body {
-    background-color: #E8FFC2;
+    background-color: #092641;
     font-family: 'Times New Roman', Times, serif;
     list-style-position: inside;
     text-align: center;
-
-
 }
 
-
-
+.mainContainer {}
 
 p {
     font-size: 30px;
+    color: #E0E0E0;
+    white-space: pre-wrap;
 }
 
-
-
-h1, h2 {
+h1,
+h2 {
     font-size: 50px;
-    color: blueviolet;
+    color: #931A25;
+    text-decoration: underline;
 }
 
 .sb-miz {
     font-size: 50px;
-    color: blueviolet;
+    color: #931A25;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.photoContainer {
+    display: inline-grid;
+    grid-template-columns: 250px 50px 50px;
+    grid-gap: 0;
+    grid-auto-flow: column;
+    background-color: transparent;
+    color: #444;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.innerContainer {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+    background-color: #2D4263;
+    width: 100%;
+    /* border-radius: 15px; */
+}
+
+.imgContainer {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    /* font-size: 150%; */
+    width: 90%;
+}
+
+.foodLink {
+    text-decoration: none;
+}
+
+.navBar {
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 35px;
+}
+.navLink{
+    text-decoration: none;
+    color :#4D77FF
+}
+.line{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* rgba(256, 256, 256, 0.5) */

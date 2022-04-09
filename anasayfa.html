@@ -1,53 +1,100 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana sayfa | Dönerci</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="anasayfa.html">Ana Sayfa</a>
-            <a href="izgaralar.html">Izgaralar ve Çorbalar</a>
-            <a href="tatli.html">Tatlılar</a>
-            <a href="iletisim.html">İletişim</a>
-        </nav>        
-    </header>
-    <h1>Hakkımızda</h1>
-    <p>Aksaray’da küçük bir üç tekerlide başlayan yolculuğumuz her geçen gün büyüyen hedeflerimiz ve eşsiz kalite anlayışımızla devam ediyor.</p>
-    <br>
-    <p>Tecrübe ve bilgi birikimi ile artan yoğun müşteri talebi üzerine gerekli araştırmaları ve hazırlıkları tamamlayarak faaliyete geçen her şubemizde lezzet, kalite ve hijyenden asla taviz vermiyoruz. Yüksek standart ve ekonomik fiyatlarla kaliteli bir döner sunuyoruz.4 Şubemizle Aksaray’ın en büyük döner işletmesi olma özelliğine sahibiz. Özenle seçilen, en kaliteli etleri gıda mühendisleri gözetiminde üretim tesisimizde kaliteli bir işçilikle hiçbir katkı malzemesi kullanmadan üretiyoruz. </p>
-    <a href="iletisim.html"></a> <span class="sb-miz">Şubelerimiz</span> <br>
-    <p>Sivas | Tokat | Kayseri | İstanbul</p>
-    <br>
-    <br>
-    <hr>
-    <h2>Lezzetlerimiz</h2>
-    <br>
-    <ol>
-        <li>Et döner <br><img width="400" src="img/Et-servis-100gr.jpg" alt="et döner"></li><br><br>
-        <li>Tavuk döner <br><img width="400" src="img/pilavüstü-tavuk-servis.jpg" alt="tavuk döner"></li><br><br>
-        <li><a href="izgaralar.html">Izgaralar için tıklayınız </a><br><img width="400" src="img/karışık.jpg" alt="karışık"></li><br><br>
-        <li>Çorba <br> <img width="400" src="img/işkembe.jpg" alt=""></li><br><br>
-        <li><a href="tatli.html">Tatlılar için tıklayınız</a><br><img width="400" src="img/baklava.jpg" alt="baklava"></li><br><br>
-    </ol>
-<hr>
-<hr>
+    <div class="mainContainer">
+        <header>
+            <nav class="navBar">
+                <a class="navLink" href="anasayfa.html">Ana Sayfa</a>
+                <a class="navLink" href="izgaralar.html">Izgaralar ve Çorbalar</a>
+                <a class="navLink" href="tatli.html">Tatlılar</a>
+                <a class="navLink" href="iletisim.html">İletişim</a>
+            </nav>
+            <hr class="line">
+        </header>
+        <h1>Hakkımızda</h1>
+        <p>Aksaray’da küçük bir üç tekerlide başlayan yolculuğumuz her geçen gün büyüyen hedeflerimiz ve eşsiz kalite
+            anlayışımızla devam ediyor.</p>
+        <br>
+        <p>Tecrübe ve bilgi birikimi ile artan yoğun müşteri talebi üzerine gerekli araştırmaları ve hazırlıkları
+            tamamlayarak faaliyete geçen her şubemizde lezzet, kalite ve hijyenden asla taviz vermiyoruz. Yüksek
+            standart ve
+            ekonomik fiyatlarla kaliteli bir döner sunuyoruz.4 Şubemizle Aksaray’ın en büyük döner işletmesi olma
+            özelliğine
+            sahibiz. Özenle seçilen, en kaliteli etleri gıda mühendisleri gözetiminde üretim tesisimizde kaliteli bir
+            işçilikle hiçbir katkı malzemesi kullanmadan üretiyoruz. </p>
+        <a href="iletisim.html"></a> <span class="sb-miz">Şubelerimiz</span> <br>
+        <p>Sivas | Tokat | Kayseri | İstanbul</p>
+        <br>
+        <br>
+        <hr class="line">
+        <h2>Lezzetlerimiz</h2>
+        <br>
+        <div class="photoContainer">
+            <div class="innerContainer">
+                <div>
+                    <p> Et döner</p>
+                    <img class="imgContainer" src="img/Et-servis-100gr.jpg" alt="et döner" />
+                </div>
+            </div>
+        </div>
+        <div class="photoContainer">
+            <div class="innerContainer">
+                <div>
+                    <p> Tavuk döner </p>
+
+                    <img class="imgContainer" src="img/pilavüstü-tavuk-servis.jpg" alt="tavuk döner">
+                </div>
+            </div>
+        </div>
+        <div class="photoContainer">
+            <div class="innerContainer">
+                <a href="izgaralar.html" class="foodLink">
+                    <div>
+                        <p> Izgara Çeşitleri</p>
+                        <img class="imgContainer" src="img/karışık.jpg" alt="karışık">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="photoContainer">
+            <div class="innerContainer">
+                <div>
+                    <p> Çorba </p>
+                    <img class="imgContainer" src="img/işkembe.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="photoContainer">
+            <div class="innerContainer">
+                <a href="tatli.html" class="foodLink">
+                    <div>
+                        <p> Tatlı Çeşitleri </p>
+                        <img class="imgContainer" src="img/baklava.jpg" alt="baklava">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <hr class="line">
 
     <footer>
-        <nav>
-            <ul>
-                <li><a href="anasayfa.html">Ana Sayfa</a></li>
-                <li><a href="izgaralar.html">Izgaralar ve Çorbalar</a></li>
-                <li><a href="izgaralar.html">Izgaralar ve Çorbalar</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
-            </ul>
-        </nav>    
+        <nav class="navBar">
+            <a class="navLink" href="anasayfa.html">Ana Sayfa</a>
+            <a class="navLink" href="izgaralar.html">Izgaralar ve Çorbalar</a>
+            <a class="navLink" href="izgaralar.html">Izgaralar ve Çorbalar</a>
+            <a class="navLink" href="iletisim.html">İletişim</a>
+        </nav>
     </footer>
-        
 </body>
+
 </html>
